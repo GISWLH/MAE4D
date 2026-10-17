@@ -1,3 +1,7 @@
+<!-- readme-visual-refresh:banner -->
+![MAE4D — hand-drawn project banner](assets/readme/banner.svg)
+<!-- /readme-visual-refresh:banner -->
+
 # MAE4D
 A implemention of "Masked Autoencoders As Spatiotemporal Learners"
 
@@ -24,3 +28,7 @@ MAE4D也许有希望帮助重现次网格降水过程
    - 使用均方误差 (MSE) 作为损失，计算掩盖区域的恢复误差。
 
 **总结的关键模块顺序**: 输入 → Patch 分割 → 编码器（随机掩码 + Transformer）→ 解码器（Transformer + 预测器）→ 损失计算
+
+<!-- readme-visual-refresh:artwork-source -->
+[Editable banner artwork · Excalidraw](assets/readme/banner.excalidraw)
+<!-- /readme-visual-refresh:artwork-source -->
