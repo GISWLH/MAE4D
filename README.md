@@ -32,3 +32,14 @@ MAE4D也许有希望帮助重现次网格降水过程
 <!-- readme-visual-refresh:artwork-source -->
 [Editable banner artwork · Excalidraw](assets/readme/banner.excalidraw)
 <!-- /readme-visual-refresh:artwork-source -->
+
+
+<!-- readme-visual-refresh:execution -->
+## Demonstration captured on EHPC · 17 October 2026
+
+![Original notebook model class executed with a reduced one-layer encoder/decoder configuration and a small synthetic tensor. Random weights, no checkpoint and no training: this is a forward-pass shape/finite-value smoke test, not weather-reconstruction evidence.](assets/readme/execution-result.png)
+
+Original notebook model class executed with a reduced one-layer encoder/decoder configuration and a small synthetic tensor. Random weights, no checkpoint and no training: this is a forward-pass shape/finite-value smoke test, not weather-reconstruction evidence.
+
+[Execution record and checksums](assets/readme/execution-record.json).
+<!-- /readme-visual-refresh:execution -->
